@@ -10,15 +10,58 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
       <link href="main.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   
 <body>
 
+  
+
+    
+
+
+
 <div class="p-5 bg-primary text-white text-center">
   <h1>David Vazquez</h1>
-  <p>Click on the Buttons Below to find out more about David.</p> 
+    <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Learn How to Navigate this Site</button>
+
 </div>
       
+ 
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <h4 class="modal-title">Site Navigation</h4>
+      </div>
+      <div class="modal-body">
+        <p>This site uses the below carousel to select each page.  There are 6 pages that may accessed by either selecting the arrows to toggle through all categories or the by selecting the small rectangles to skip to your preferred topic.  The order of the topics are: <br/>
+        1) Home <br/>
+        2) Education <br/>
+        3) Experience <br/>
+        4) Resume <br/>
+        5) Slideshow <br/> 
+        6) Contact Info 
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    
 <main>
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
